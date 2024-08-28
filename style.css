@@ -94,9 +94,6 @@
   font-weight: bold;
   padding: 1rem;
   border-radius: 10px;
-  position: absolute;
-  top: 55%;
-  left: 13%;
 }
 
 .about {
@@ -406,7 +403,7 @@ a {
 /*DESKTOP CSS*/
 
 .header-desk {
-  background-image: url(https://raw.githubusercontent.com/vinicarvc/lpsimpo/main/img/banner1.png);
+  background-image: url("https://raw.githubusercontent.com/vinicarvc/lpsimpo/main/img/banner1.png");
   padding: 8rem;
   color: var(--white);
 }
