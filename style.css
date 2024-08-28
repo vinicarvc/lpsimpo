@@ -407,7 +407,7 @@ a {
 /*DESKTOP CSS*/
 
 .header-desk {
-  background-image: url(/simpoteste/img/banner1.png);
+  background-image: url(https://raw.githubusercontent.com/vinicarvc/lpsimpo/main/img/banner1.png);
   padding: 8rem;
   color: var(--white);
 }
