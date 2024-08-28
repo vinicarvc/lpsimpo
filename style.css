@@ -80,7 +80,7 @@
 }
 
 .main {
-  background-image: url("/simpoteste/img/backgroundmobile.png");
+  background-image: url("https://raw.githubusercontent.com/vinicarvc/lpsimpo/main/img/backgroundmobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 419px;
