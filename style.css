@@ -36,14 +36,12 @@
 }
 
 .logo {
-  width: 118px;
-  height: 15px;
+  width: 50%;
   margin: 0 auto;
 }
 
 .eye {
-  width: 98px;
-  height: 51px;
+  width: 105%;
   margin: 0 auto;
 }
 
@@ -165,6 +163,7 @@
   padding: 1rem;
   border-radius: 10px;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   gap: 10px;
   align-items: center;
@@ -200,7 +199,11 @@
 }
 
 .schedule-list {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.schedule-list h2 {
+  font-size: 17px;
 }
 
 .course {
@@ -267,6 +270,11 @@
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 15px;
+}
+
+.prices h4 {
+  text-align: center;
+  margin: 4px;
 }
 
 .prices-box-1 {
@@ -390,6 +398,10 @@
   color: var(--white);
 }
 
+.baseboard img {
+  width: 90%;
+}
+
 .baseboard p {
   padding: 2rem;
   font-size: 14px;
@@ -409,15 +421,12 @@ a {
 }
 
 .logo-desk {
-  width: 176px;
-  height: 21px;
+  width: 40%;
   margin-bottom: 30px;
 }
 
-.eye-desk {
-  width: 176px;
-  height: 91px;
-  margin-bottom: 25px;
+.logo-simpo-desk {
+  margin-left: -10px;
 }
 
 .header-desk-texts {
@@ -515,24 +524,24 @@ a {
 }
 
 .schedule-desk h1 {
-  font-size: 32px;
+  font-size: 20px;
   color: var(--white);
   text-align: center;
 }
 
 .schedule-desk h2 {
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .schedule-desk p {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .schedule-mark-desk {
   background-color: var(--white);
   margin-top: 50px;
   margin-bottom: 2rem;
-  width: 38%;
+  width: 30%;
   margin-left: -70px;
   padding: 1rem;
   border-radius: 40px 5px;
@@ -540,7 +549,7 @@ a {
 }
 
 .schedule-mark-desk h2 {
-  font-size: 32px;
+  font-size: 26px;
   color: var(--brown);
   margin-left: 160px;
 }
@@ -795,6 +804,17 @@ a {
 .baseboard-img-desk {
   width: 605px;
   height: 217px;
+}
+
+.button-whatsapp:hover,
+.button-whatsapp-desk1:hover,
+.button-whatsapp-desk2:hover,
+.button-whatsapp-desk3:hover,
+.button-whatsapp2:hover {
+  background-color: var(--black);
+  color: var(--green);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .desktop,
